@@ -1,0 +1,102 @@
+.header {
+    display: flex;
+    background-image: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0 10%;
+    height: 770px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.head-wrp {
+    padding: 40px 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.header-brand {
+    font-family: Montserrat, serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: left;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin: 0;
+}
+
+.header-menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    line-height: 36px;
+}
+
+.menu-item {
+    padding: 0 2%;
+}
+
+.menu-item-txt {
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.35px;
+    text-align: left;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.header-blc-headline,
+.header-blc-txt {
+    display: block;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.header-blc-headline {
+    font-family: Montserrat, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 230px 0 30px;
+}
+
+.header-blc-txt {
+    font-family: robotoslab, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+
+.header-blc-btn {
+    display: block;
+    width: 111px;
+    height: 13px;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    color: #fff;
+    margin: 50px auto 0;
+    padding: 20px 35px;
+    border: 2px solid #fff;
+    border-radius: 2px;
+}
